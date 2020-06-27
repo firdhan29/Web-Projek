@@ -1,0 +1,84 @@
+/* untuk ukuran tablet */
+@media all and (max-width: 1000px) {  
+  .tutor {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .header-right {
+    padding-right: 30px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+  
+/* untuk ukuran smartphone */
+@media all and (max-width: 670px) {
+  @keyframes float {
+    50% {
+      transform: translate(0px, 20px);
+    }
+  }
+  
+  .welcome {
+    position: relative;
+    width: 175px;
+    animation: float 3s ease-out infinite;
+  }
+  
+  h2 {
+    line-height: 125%;
+  }
+
+  .tutor {
+    width: 100%;
+  }
+
+  .float-help {
+    display: none !important;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .daftar {
+    margin-bottom: 15px;
+  }
+  
+  .top-wrapper {
+    text-align: center;
+  }
+  
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block !important;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
